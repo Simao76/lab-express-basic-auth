@@ -8,6 +8,12 @@ const logger = require('morgan');
 const sassMiddleware = require('node-sass-middleware');
 const serveFavicon = require('serve-favicon');
 
+/* const expressSession = require('express-session'); */
+/* const connectMongo = require('connect-mongo');
+
+const MongoStore = connectMongo(expressSession); */
+
+
 const indexRouter = require('./routes/index');
 
 const app = express();
